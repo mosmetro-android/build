@@ -1,0 +1,30 @@
+{
+  "base_url": "https://raw.githubusercontent.com/mosmetro-android/builds/data",
+  "jenkins": {
+    "url": "https://jenkins.thedrhax.pw",
+    "project": "mosmetro-android-pipeline"
+  },
+  "github": {
+    "enabled": false,
+    "user": "mosmetro-android",
+    "repo": "mosmetro-android",
+    "beta": false
+  },
+  "stable_branches": ["play", "beta", "master"],
+  "static": {
+    "urls": {
+      "stats": "https://mosmetro.duckdns.org/api/v2/stats"
+    },
+    "news": [
+      {
+        "id": 13,
+        "max_builds": {
+          "play": 11
+        },
+        "url": "https://vk.com/wifi_v_metro?w=wall-113596028_6594",
+        "title": "Рекомендуется изменение настроек",
+        "message": "Для стабильного подключения в метро Москвы рекомендуется снять галочку \"Отключать midsession\". Нажмите сюда, чтобы узнать подробности."
+      }
+    ]
+  }
+}
