@@ -13,7 +13,7 @@
   "stable_branches": ["play", "beta", "master"],
   "static": {
     "urls": {
-      "stats": "https://mosmetro.duckdns.org/api/v2/stats"
+      "stats": "https://mosmetro.duckdns.org/api/v3/stats"
     },
     "news": [
       {
