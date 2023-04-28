@@ -37,6 +37,17 @@
       "stable": true,
       "message": "Сборка master-#438:\n\n* Исправлена работа на Android 4.x\n* OkHttp: Поддержка TLSv1.2 на Android 4.x\n* Gen204: Исправлено ложное сообщение о midsession\n* Исправлен URL статистики\n* BackendRequest: Исправлен баг в кэше",
       "url_orig": "https://jenkins.thedrhax.pw/job/mosmetro-android-pipeline/job/master/438//artifact/SignApksBuilder-out/android-keystore/pw.thedrhax.*/MosMetro-master-v77-b438-unsigned.apk/MosMetro-master-v77-b438.apk"
+    },
+    "byfly": {
+      "name": "byfly",
+      "description": "Тестовая поддержка сетей \"BELTELECOM\" и \"byfly WIFI\" в Беларуси. Важно: требуется логин и пароль!",
+      "version": 0,
+      "build": 1,
+      "by_build": true,
+      "url": "https://raw.githubusercontent.com/mosmetro-android/builds/data/apks/MosMetro-byfly-b1.apk",
+      "filename": "MosMetro-byfly-b1.apk",
+      "stable": false,
+      "message": "Сборка byfly-#1:\n\n* HttpResponse: Сохранять порт в базовом URL\n* HttpResponse: Улучшен парсинг форм\n* Начальная поддержка ByFly (Белтелеком)"
     }
   }
 }
