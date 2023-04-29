@@ -1,15 +1,5 @@
 {
   "base_url": "https://raw.githubusercontent.com/mosmetro-android/builds/data",
-  "jenkins": {
-    "url": "https://jenkins.thedrhax.pw",
-    "project": "mosmetro-android-pipeline"
-  },
-  "github": {
-    "enabled": false,
-    "user": "mosmetro-android",
-    "repo": "mosmetro-android",
-    "beta": false
-  },
   "stable_branches": ["play", "beta", "master"],
   "static": {
     "urls": {
