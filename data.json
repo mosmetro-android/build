@@ -1,0 +1,53 @@
+{
+  "urls": {
+    "stats": "https://mosmetro.duckdns.org/api/v3/stats"
+  },
+  "news": [
+    {
+      "id": 13,
+      "max_builds": {
+        "play": 11
+      },
+      "url": "https://vk.com/wifi_v_metro?w=wall-113596028_6594",
+      "title": "Рекомендуется изменение настроек",
+      "message": "Для стабильного подключения в метро Москвы рекомендуется снять галочку \"Отключать midsession\". Нажмите сюда, чтобы узнать подробности."
+    }
+  ],
+  "branches": {
+    "experimental": {
+      "name": "experimental",
+      "description": "В данный момент здесь тестируется поддержка сетей \"Moscow_WiFi_Free\" в МИРЭА и \"Free Wi-Fi Zona\" в Белграде",
+      "version": 0,
+      "build": 55,
+      "by_build": true,
+      "url": "https://raw.githubusercontent.com/mosmetro-android/builds/data/apks/MosMetro-experimental-b55.apk",
+      "filename": "MosMetro-experimental-b55.apk",
+      "stable": false,
+      "message": "Сборка experimental-#55:\n\n* Исправлен URL статистики\n* BackendRequest: Исправлен баг в кэше",
+      "url_orig": "https://jenkins.thedrhax.pw/job/mosmetro-android-pipeline/job/experimental/55//artifact/SignApksBuilder-out/android-keystore/pw.thedrhax.*/MosMetro-experimental-v77-b55-unsigned.apk/MosMetro-experimental-v77-b55.apk"
+    },
+    "master": {
+      "name": "master",
+      "description": "Основная ветка разработки. Здесь раньше всего появляются стабильные функции и исправления ошибок.",
+      "version": 0,
+      "build": 438,
+      "by_build": true,
+      "url": "https://raw.githubusercontent.com/mosmetro-android/builds/data/apks/MosMetro-master-b438.apk",
+      "filename": "MosMetro-master-b438.apk",
+      "stable": true,
+      "message": "Сборка master-#438:\n\n* Исправлена работа на Android 4.x\n* OkHttp: Поддержка TLSv1.2 на Android 4.x\n* Gen204: Исправлено ложное сообщение о midsession\n* Исправлен URL статистики\n* BackendRequest: Исправлен баг в кэше",
+      "url_orig": "https://jenkins.thedrhax.pw/job/mosmetro-android-pipeline/job/master/438//artifact/SignApksBuilder-out/android-keystore/pw.thedrhax.*/MosMetro-master-v77-b438-unsigned.apk/MosMetro-master-v77-b438.apk"
+    },
+    "byfly": {
+      "name": "byfly",
+      "description": "Тестовая поддержка сетей \"BELTELECOM\" и \"byfly WIFI\" в Беларуси. Важно: требуется логин и пароль!",
+      "version": 77,
+      "build": 5,
+      "by_build": true,
+      "url": "https://raw.githubusercontent.com/mosmetro-android/builds/data/apks/MosMetro-byfly-b5.apk",
+      "filename": "MosMetro-byfly-b5.apk",
+      "stable": false,
+      "message": "Сборка byfly-#5:\n\n* Client: Исправлены перенаправления POST-запросов с кодом 3xx\n* ByFly: Следовать перенаправлениям автоматически\n* Client: Рефакторинг отправки HTML форм\n"
+    }
+  }
+}
