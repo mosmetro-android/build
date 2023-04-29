@@ -44,7 +44,7 @@ function jqi {
 }
 
 OLD_APK=$(jq -r '.branches[$branch].filename' builds-data/data.json --arg branch "$BRANCH_NAME")
-if [ "$OLD_APK" ]; then
+if [ "$OLD_APK" != "null" ]; then
   rm "builds-data/apks/$OLD_APK"
 fi
 unset OLD_APK
