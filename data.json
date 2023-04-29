@@ -41,13 +41,13 @@
     "byfly": {
       "name": "byfly",
       "description": "Тестовая поддержка сетей \"BELTELECOM\" и \"byfly WIFI\" в Беларуси. Важно: требуется логин и пароль!",
-      "version": 0,
-      "build": 3,
+      "version": 77,
+      "build": 4,
       "by_build": true,
-      "url": "https://raw.githubusercontent.com/mosmetro-android/builds/data/apks/MosMetro-byfly-b3.apk",
-      "filename": "MosMetro-byfly-b3.apk",
+      "url": "https://raw.githubusercontent.com/mosmetro-android/builds/data/apks/MosMetro-byfly-b4.apk",
+      "filename": "MosMetro-byfly-b4.apk",
       "stable": false,
-      "message": "Сборка byfly-#3:\n\n* ByFly: Первая рабочая версия"
+      "message": "Сборка byfly-#4:\n\n* Миграция сборки на Drone\n* ByFly: Добавлен SSID \"BELTELECOM WIFI\"\n* Merge branch 'master' into byfly\n"
     }
   }
 }
