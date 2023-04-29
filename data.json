@@ -42,12 +42,12 @@
       "name": "byfly",
       "description": "Тестовая поддержка сетей \"BELTELECOM\" и \"byfly WIFI\" в Беларуси. Важно: требуется логин и пароль!",
       "version": 0,
-      "build": 2,
+      "build": 3,
       "by_build": true,
-      "url": "https://raw.githubusercontent.com/mosmetro-android/builds/data/apks/MosMetro-byfly-b2.apk",
-      "filename": "MosMetro-byfly-b2.apk",
+      "url": "https://raw.githubusercontent.com/mosmetro-android/builds/data/apks/MosMetro-byfly-b3.apk",
+      "filename": "MosMetro-byfly-b3.apk",
       "stable": false,
-      "message": "Сборка byfly-#2:\n\n* ByFly: Добавлен Cookie safe=1"
+      "message": "Сборка byfly-#3:\n\n* ByFly: Первая рабочая версия"
     }
   }
 }
