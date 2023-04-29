@@ -76,5 +76,5 @@ jqi '
 
 pushd builds-data > /dev/null
 git add .
-git commit --amend -m "Initial commit"
+git commit -m "Build $BRANCH_NAME-#$BUILD_NUMBER"
 popd > /dev/null
