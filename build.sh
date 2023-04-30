@@ -12,6 +12,7 @@ VERSION=$(grep versionCode app/build.gradle | grep -Eo '[0-9]*?')
 OUTPUT="bin/MosMetro-$BRANCH_NAME-b$BUILD_NUMBER"
 
 echo "Starting build #$BUILD_NUMBER of branch $BRANCH_NAME..."
+export BRANCH_NAME BUILD_NUMBER
 gradle build
 
 [ -e bin ] && rm -r bin; mkdir -p bin
